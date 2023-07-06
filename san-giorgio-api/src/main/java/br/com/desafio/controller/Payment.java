@@ -15,5 +15,6 @@ import java.util.List;
 public class Payment {
     @JsonProperty("client_id")
     private String clientId;
+    @JsonProperty("payment_items")
     private List<PaymentItem> paymentItems;
 }

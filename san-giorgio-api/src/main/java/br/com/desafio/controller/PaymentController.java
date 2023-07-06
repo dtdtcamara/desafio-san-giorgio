@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PaymentController {
 
-    private final ConfirmPaymentUseCase confirmPaymentUseCase;
+    //private final ConfirmPaymentUseCase confirmPaymentUseCase;
 
     @PutMapping(path = "/api/payment")
     public ResponseEntity<Payment> setPayment(Payment request) {
